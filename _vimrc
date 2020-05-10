@@ -20,21 +20,20 @@ set nowrap
 
 set swapfile
 "set dir=C:/windows/Temp
-set dir=E:/Vim/Temp
+set dir=$VIM/Temp
 
 set backup
 "set backupdir=C:/windows/Temp
 "set backupskip=C:/windows/Temp/*
 "set directory=C:/windows/Temp
-"Replace paths with $VIMRUNTIME etc. 
-set backupdir=E:/Vim/Temp
-set backupskip=E:/Vim/Temp/*
-set directory=E:/Vim/Temp
+set backupdir=$VIM/Temp
+set backupskip=$VIM/Temp/*
+set directory=$VIM/Temp
 set writebackup
 
 set undofile
 "set undodir=C:/windows/Temp
-set undodir=E:/Vim/Temp
+set undodir=$VIM/Temp
 
 set cinoptions+=(0,w1,W4,t0,g0
 
